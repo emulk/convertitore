@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Convertitore</title>
+		<link rel="stylesheet" media="all" type="text/css" href="conv.css" /> 
+		
+	</head>
+	<body>
+		
+
+		<p id="titolo">Convertitori: binario-decimale-esadecimale</p>
+		
+		<p id="sottotitolo">I seguenti convertitori permettono di cambiare la base di un numero naturale. <br />
+		Le basi disponibili sono 3: binario, decimale ed esadecimale. <br />
+		Esempio: se volete convertire un numero da binario a decimale, inserite il numero in binario nel campo del Convertitore binario -> decimale/esadecimale 
+		e vedrete il numero convertito in decimale e esadecimale.</p>
+		
+		
+		<form action="conv.php" method="POST" enctype="text">
+			<p id="descrizione">Convertitore Decimale -> Binario/Esadecimale</p>
+			Decimale: <input type="text" name="decimale" /><br />
+			<p id="descrizione">Convertitore Binario -> Decimale/Esadecimale</p>
+			Binario: <input type="text" name="binario"  />	<br />
+			<p id="descrizione">Convertitore Esadecimale -> Decimale/Binario</p>
+			Esadecimale: <input type="text" name ="esadecimale" /> <br />
+				
+			<div class="input">
+				<input type="submit" value="calcola"   />
+			</div>		
+
+		
+		</form> 
+		
+		<footer> Copyright &copy; All rights reserved Orgest Shehaj </footer>
+	</body>
+
+
+</html>
+
